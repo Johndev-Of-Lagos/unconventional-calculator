@@ -1,0 +1,83 @@
+
+.ConvnlCalculator {
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.ConvnlCalculator__inner {
+   display: flex;
+   flex-direction: column;
+   height: 600px;
+   width: 400px;
+   border: 2px solid red;
+}
+
+
+.input-group {
+   display: flex;
+   flex-direction: column;
+   padding: .5rem;
+
+}
+
+.input-group input {
+   display: flex;
+   padding: 2.5rem 0;
+   padding-left: 50%;
+   font-size: 1.5rem;
+   outline: none;
+}
+
+
+
+
+.cal-btn {
+   display: flex;
+   justify-content: center;
+   margin-top: 1rem;
+
+}
+
+
+.cal-btn__inner {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.cal-btn__inner button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 20%;
+   padding: 2rem;
+   font-size: 1.5rem;
+   font-weight: bold;
+   color: #fff;
+   background-color: #343453;
+}
+
+
+.cal-btn__inner .Equalto {
+   display: flex;
+   width: 80%;
+   background-color: #dc733b;
+ }
+
+.display-cal {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 1rem;
+   gap: .5rem;
+   font-size: 1rem;
+}
+

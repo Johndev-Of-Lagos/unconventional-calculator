@@ -1,0 +1,33 @@
+
+*,
+* ::before , ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+} 
+
+
+html, body,
+#root {
+   line-height: 1.5;
+   letter-spacing: 0.0.1rem;
+   scroll-behavior: smooth;
+   font-family: "ubutun", sans-serif;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+}
+
+
+ul li,
+ol li { 
+   list-style: none;
+}
+
+
+a, button {
+   text-decoration: none;
+   color: inherit;
+}

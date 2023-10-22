@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./css/_reset.css">
+   <link rel="stylesheet" href="/app.css">
+   <script src="./Script/vendor.js" defer></script>
+  <script src="./Script/app.js" defer></script>
+</head>
+<body>
+   <div class='ConvnlCalculator'>
+      <div class="ConvnlCalculator__inner">
+        <div class="input-group">
+          <input
+            id='input-number'
+            type="text" />
+        </div>
+        <div class="cal-btn">
+          <div class="cal-btn__inner">
+            <button class='Add' id='Add-btn'>+</button>
+            <button class='Subtract' id='Subtract-btn'>-</button>
+            <button class='Multiply' id='Multiply-btn'>*</button>
+            <button class='Divided' id='Devided-btn'>/</button>
+            <button class='Equalto' id='Equalto-btn'>=</button>
+          </div>
+          <div class="screen-display">
+            <div class="text"></div>
+            <div class="result"></div>
+          </div>
+        </div>
+        <div class="display-cal">
+          <h2 id='current-calculation'></h2>
+          <h2>Result: <span id='current-result'></span></h2>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
